@@ -1,0 +1,29 @@
+{
+  "short_name": "FireWeather",
+  "name": "FireWeather",
+  "icons": [
+    {
+      "src": "/logo.png",
+      "sizes": "96x96",
+      "type": "image/png"
+    },
+    {
+      "src": "/logo.png",
+      "sizes": "144x144",
+      "type": "image/png"
+    },
+    {
+      "src": "/logo.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ],
+  "gcm_sender_id": "587627274284",
+  "permissions": [
+    "gcm",
+    "storage"
+  ],
+  "start_url": "/index.html",
+  "display": "browser",
+  "orientation": "landscape"
+}

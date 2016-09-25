@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>FireWeather</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--
+    Load up the manifest where we specify the gcm
+    message id and allows us to install a service worker
+    -->
+    <link rel="manifest" href="manifest.json">
+
+    <!--
+    Just for styles
+    -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="/reset.css" type="text/css">
+    <link rel="stylesheet" href="/style.css" type="text/css">
+
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="#F5820B"> 
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+    <meta name="format-detection" content="telephone=no"> 
+    <link rel="apple-touch-icon" sizes="57x57" href="/logo.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/logo.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/logo.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/logo.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/logo.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/logo.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/logo.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/logo.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/logo.png">
+    <link rel="icon" type="image/png" href="/logo.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/logo.png" sizes="194x194">
+    <link rel="icon" type="image/png" href="/logo.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/logo.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/logo.png" sizes="16x16">
+    <link rel="shortcut icon" href="/logo.png">
+
+    <meta name="apple-mobile-web-app-title" content="FireWeather">
+    <meta name="application-name" content="FireWeather">
+    <meta name="msapplication-TileColor" content="#F5820B">
+    <meta name="msapplication-TileImage" content="/logo.png">
+  </head>
+  <body>
+
+    <div class="container">
+
+      <div class="wrapper">
+
+        <div class="app-heading-main">
+            <img src="/logo.png" class="app-heading-logo" />
+            <h1 class="app-heading-text">FireWeather</h1>
+        </div>
+        <img class="center-img" src="/alarm.png" />
+        <h3 class="subscription-counts-label">The news about the weather alert would be shown here, but as this is just a demo no need to worry :)</h3>
+        <h3 class="subscription-counts-label">While you are here, feel free to throw out a <a href="https://twitter.com/intent/tweet?hashtags=LPBuildSSA,firebase&text=Just%20got%20a%20%23firebase%20cloud%20messaging%20notification%20about%20weather%20at%20%23LPBuildSSA%20during%20a%20demo%20!" target="_blank">tweet</a>!</h3>
+
+      </div>
+
+    </div>
+  </body>
+</html>

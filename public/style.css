@@ -1,0 +1,226 @@
+html, body {
+
+  margin: 0;
+  padding: 0;
+
+  background-color: #F3F3F3;
+  color: #666;
+  font-family: 'Roboto', sans-serif;
+
+}
+
+h1,h2,h3,h4,h5,h6,p,a {
+
+  font-family: 'Roboto', sans-serif;
+  color: #666;
+
+}
+
+.container {
+
+  margin: 0 auto;
+  padding: 0;
+  max-width: 900px;
+  box-sizing: border-box;
+
+}
+
+.wrapper {
+
+  margin: 0;
+  padding: 65px 0;
+  box-sizing: border-box;
+
+}
+
+.app-heading {
+
+  margin: 0;
+  margin-bottom: 15px; 
+  padding: 0;
+
+  text-align: center;
+  font-size: 60px;
+  font-weight: 100;
+  box-sizing: border-box;
+
+}
+
+.clearfix {
+
+  margin: 0;
+  padding: 0;
+  display: block;
+  clear: both;
+
+}
+
+.app-heading-main {
+
+  margin: 0 auto;
+  margin-bottom: 15px; 
+  padding: 0;
+
+  text-align: center;
+  font-size: 3em;
+  font-weight: 100;
+  box-sizing: border-box;
+
+  display: table;
+  text-align: center;
+
+}
+
+.app-heading-logo {
+
+  margin: 0;
+  margin-right: 10px;
+  padding: 0;
+  box-sizing: border-box;
+  float: left;
+  height: 46px;
+
+}
+
+.app-heading-text {
+
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  float: left;
+
+}
+
+.subscription-counts {
+
+  margin: 20px 0;
+  margin-bottom:5px;
+  padding: 0;
+
+  text-align: center;
+  font-size: 120px;
+  font-weight: bold;
+  box-sizing: border-box;
+  color: #F5820B;
+  
+}
+
+.subscription-counts-label {
+
+  margin: 0 auto;
+  margin-bottom: 55px;
+  padding: 0;
+
+  text-align: center;
+  font-size: 18px;
+  font-weight: 100;
+  box-sizing: border-box;
+  color: darkgrey;
+
+  max-width: 256px;
+  display: table;
+
+  line-height: 1.5;
+
+}
+
+.btn {
+
+  margin: 0 auto;
+  padding: 0;
+
+  width: 50%;
+
+  display: block;
+  position: relative;
+  cursor: pointer;
+  min-height: 36px;
+  min-width: 88px;
+  line-height: 36px;
+  vertical-align: middle;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -webkit-align-items: center;
+  align-items: center;
+  text-align: center;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-user-select: none;
+  -webkit-user-select: none;
+  outline: none;
+  border: 0;
+  padding: 0 6px;
+  margin: 6px 8px;
+  background: transparent;
+  color: white;
+  white-space: nowrap;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 14px;
+  font-style: inherit;
+  font-variant: inherit;
+  font-family: inherit;
+  text-decoration: none;
+  overflow: hidden;
+  -webkit-transition: box-shadow .4s cubic-bezier(0.25,0.8,0.25,1),background-color .4s cubic-bezier(0.25,0.8,0.25,1);
+  -webkit-transition: box-shadow .4s cubic-bezier(0.25,0.8,0.25,1),background-color .4s cubic-bezier(0.25,0.8,0.25,1);
+  transition: box-shadow .4s cubic-bezier(0.25,0.8,0.25,1),background-color .4s cubic-bezier(0.25,0.8,0.25,1);
+
+  color: rgb(255,255,255);
+  background-color: rgb(3,155,229);
+
+  margin: 0 auto;
+  padding: 0;
+
+}
+
+.center-img {
+
+  margin: 0 auto;
+  margin-bottom: 20px;
+  padding: 0;
+
+  display: table;
+  height: 128px;
+
+}
+
+.weather-alert {
+
+  color: red;
+  font-weight: bold;
+  display: none;
+
+}
+
+@media (max-width: 600px) {
+
+  .wrapper {
+
+    padding: 50px;
+
+  }
+
+  .app-heading-main {
+
+    font-size: 2em;
+
+  }
+
+  .app-heading-text {
+
+    margin-top: 10px;
+
+  }
+
+  .subscription-counts-label {
+
+    padding-left: 25px;
+    padding-right: 25px;
+    line-height: 1.5;
+
+  }
+
+}

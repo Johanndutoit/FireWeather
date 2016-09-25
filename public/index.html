@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>FireWeather</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--
+    Load up the manifest where we specify the gcm
+    message id and allows us to install a service worker
+    -->
+    <link rel="manifest" href="manifest.json">
+
+    <!--
+    Just for styles
+    -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="/reset.css" type="text/css">
+    <link rel="stylesheet" href="/style.css" type="text/css">
+    
+    <meta name="format-detection" content="telephone=no"> 
+    <link rel="apple-touch-icon" sizes="57x57" href="/logo.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/logo.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/logo.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/logo.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/logo.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/logo.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/logo.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/logo.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/logo.png">
+    <link rel="icon" type="image/png" href="/logo.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/logo.png" sizes="194x194">
+    <link rel="icon" type="image/png" href="/logo.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/logo.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/logo.png" sizes="16x16">
+    <link rel="shortcut icon" href="/logo.png">
+
+    <meta name="apple-mobile-web-app-title" content="FireWeather">
+    <meta name="application-name" content="FireWeather">
+    <meta name="msapplication-TileColor" content="#F5820B">
+    <meta name="msapplication-TileImage" content="/logo.png">
+
+  </head>
+  <body>
+
+    <div class="container">
+
+      <div class="wrapper">
+
+        <div class="app-heading-main">
+            <img src="/logo.png" class="app-heading-logo" />
+            <h1 class="app-heading-text">FireWeather</h1>
+        </div>
+        <div class="clearfix"></div>
+        <h3 class="subscription-counts-label">Get weather alerts for the LaunchPad Event</h3>
+        <h3 class="subscription-counts">..</h3>
+        <h3 class="subscription-counts-label">subscribers to date</h3>
+        <h1 class="subscription-counts-label weather-alert">Just received a weather alert, click <a href="/view.html">here</a> to view.</h1>
+        <a href="javascript:void(0);" class="btn btn-subscribe">Subscribe</a>
+        <a href="javascript:void(0);" class="btn btn-unsubscribe">Unsubscribe</a>
+
+      </div>
+
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/3.4.0/firebase.js"></script>
+    <script src="/app.js" type="text/javascript"></script>
+  </body>
+</html>
